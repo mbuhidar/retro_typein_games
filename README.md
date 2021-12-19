@@ -1,15 +1,17 @@
 # retro-typein-games
 Collaborative repository for typing-in, debugging, and converting 1980s
 magazine type-in games and programs for use with Commodore emulators and
-original hardware. Using this to test the library of type-in tools I'm 
-developing named `retro-typein-tools`.  Contributions welcome if you'd like
-to take on typing in one of the games for nostalgic purposes.  Suggestions on
-how to improve the type-in tools library are also welcome.
+original hardware. I'm using this repository to test the library of type-in
+tools I'm developing named `retro-typein-tools`.  Contributions are welcome if
+you'd like to take on typing in one of the games for nostalgic purposes.
+Suggestions on how to improve the type-in tools library are also very welcome.
 
 ## File Structure
+Each magazine will have a directory with folders for each individual game.
+
 Each game will have a directory containing three files:
-- File as-typed from magazine (including special character codes)
-- File converted by tool for use with the VICE emulator Petcat tool
+- File as-typed from the magazine (including special character codes)
+- File converted by tool for optional use with the VICE emulator Petcat tool
 - File converted directly to binary format for use with emulator or original hardware
 
 An example for C64 games from Ahoy magazine would be:
@@ -17,12 +19,13 @@ An example for C64 games from Ahoy magazine would be:
 - gamename.bas (converted for use with Petcat if desired)
 - gamename.prg (ready for use with emulator or C64)
 
-Also included in each directory is a reference folder named 'code reference'
-that contains a link to existing historical archived magazine scans.
+Also included in each magazine directory is a README that contains a link to
+existing historical archived magazine scans and descriptions for each game from
+the magazine for quick reference.
 
 # Retro Type-in Tools
 ## Installation of the tools library:
-`pip install retro-typein-tools`
+`pip install retro-typein-tools` Note: Requires Python 3.6 or later.
 
 ## Tool: debug_tokenize
 
@@ -40,9 +43,9 @@ use with an emulator or original hardware.
 After installation, use `debug_tokenize` directly from the command line - 
 consult the help for the latest usage: 
 
-**Note:** Currently only options for C64 load address, Basic v2.0, and Ahoy
+*Note: Currently only options for C64 load address, Basic v2.0, and Ahoy
 debugger from April 1984 through April 1987 issues are available (defaults).
-More options to come in future releases.
+More options to come in future releases.*
 
 ```
 debug_tokenize [-l load_address] [-v basic_version] [-s source_format] input_file
@@ -94,7 +97,7 @@ characters converted to VICE petcat special character codes)
 Output2:  basename.prg (tokenized file that can be run on a Commodore 
 computer or on an emulator like VICE)
 ```
-
+---
 ### Using the output files
 
 If installed, you can use the VICE petcat utility to tokenize the BASIC file

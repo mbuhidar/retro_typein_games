@@ -1,0 +1,2 @@
+To run OCR_tool.py, use VENV from C64_Bug_Repellent.
+

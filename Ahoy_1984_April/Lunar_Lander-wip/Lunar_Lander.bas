@@ -68,7 +68,7 @@
 730 ifa$="3"thengr=4.25: return
 740 goto710
 750 print"{home}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}score";sc;
-760 print"{home}{down}{rght}  {home}";tab(28);"fuel     {left}{left}{left}{left}{left})";fu;:return
+760 print"{home}{down}{rght}  {home}";tab(28);"fuel     {left}{left}{left}{left}{left}";fu;:return
 800 pokev+1,y:ifx<256thenpokev,x:pokev+16,0:return
 810 pokev,x-256:poke53264,127:return
 820 pokes+1,3:forx=1to4:pokes+24,v2:fory=1to15:next:v2=v2+1
@@ -78,24 +78,24 @@
 910 ifa>.3thenprinttab(rnd(0)*39);"."
 920 if a<=.3thenprint
 930 next:print:print:print
-1000 print"                              {rvon}{shift-pound}{c=-*}{rvof}    "
+1000 print"                              {rvon}{shift-pound}{c=-*}{rvof}      "
 1100 print"                             {rvon}{shift-pound}  {c=-*}{rvof}     "
-1200 print"                           {rvon}{shift-pound}      {c=-*}{rvof}   "
-1300 print"                         {rvon}{shift-pound}         {c=-*}{rvof}  "
-1400 print"                     {rvon}{shift-pound}              {rvof}  "
-1500 print"                    {rvon}{shift-pound} 500           {c=-*}{rvof}"
-1600 print"      {rvon}{shift-pound} {c=-*}{rvof}           {rvon}{shift-pound}                  {rvof} "
-1700 print"     {rvon}{shift-pound}   {rvof}           {rvon}{shift-pound}                   {c=-*}{rvof} "
-1800 print"   {rvon}{shift-pound}      {c=-*}{rvof}      {rvon}{shift-pound}                   {rvof}  "
-1900 print"  {rvon}{shift-pound}        {c=-*}{rvof}    {rvon}{shift-pound}                     {c=-*}{rvof}  "
-1910 print"{rvon}           100                          {rvof}";
+1200 print"                            {rvon}{shift-pound}    {c=-*}{rvof}    "
+1300 print"                           {rvon}{shift-pound}      {c=-*}{rvof}   "
+1400 print"                          {rvon}{shift-pound}           {rvof}"
+1500 print"                     {rvon}{shift-pound} 500           {c=-*}{rvof}"
+1600 print"      {rvon}{shift-pound} {c=-*}{rvof}           {rvon}{shift-pound}             {rvof} "
+1700 print"     {rvon}{shift-pound}   {rvof}           {rvon}{shift-pound}            {c=-*}{rvof} "
+1800 print"   {rvon}{shift-pound}       {c=-*}{rvof}    {rvon}{shift-pound}                   {rvof} "
+1900 print"  {rvon}{shift-pound}        {c=-*}{rvof}    {rvon}{shift-pound}                  {c=-*}{rvof} "
+1910 print"{rvon}             100                      {rvof}";
 1920 ifl2=1andl1=1thenprint"{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rvon}{c=-*}{rvof}   {rvon}{shift-pound}{rvof}";
 1930 return
 1999 rem lander sprites
 2000 data 0,255,0,0,255,0,7,255,224,7
 2010 data 255,224,7,255,224,0,255,0,0,255
 2020 data 0,15,255,240,15,255,240,15,255,240
-2030 data 3,255,192,3,60,192,6,12,6,96,12
+2030 data 3,255,192,3,60,192,6,126,96,12
 2040 rem no flame
 2050 data 0,48,24,0,24,0,0,0,0,0
 2060 data 0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -140,24 +140,24 @@
 5020 print"     {rvon}                                  "
 5030 print"     {rvon}                                  "
 5040 print"     {rvon}                                  "
-5050 print"     {rvon}                    {rvof}{shift-pound}  {c=-*}{rvon}  {rvof}{shift-pound}  {c=-*}{rvon}  "
-5060 print"     {rvon}                    {rvof}              "
-5065 print"     {rvon}                    {rvof}              "
-5070 print"     {rvon}                    {rvof}              "
-5080 print"     {rvon}                    {rvof}  {c=-p}{c=-p}{c=-p}{c=-p}           "
-5090 print"     {rvon}                         {rvof}         "
-5100 print"     {rvon}              1000      {rvof})          "
-5200 print"     {rvon}                       {rvof})           "
-5210 print"     {rvon}                      {rvof})            "
-5220 print"     {rvon}                     {rvof})             "
+5050 print"     {rvon}                  {rvof}{shift-pound}  {c=-*}{rvon}  {rvof}{shift-pound}  {c=-*}{rvon}  "
+5060 print"     {rvon}                  {rvof}               "
+5065 print"     {rvon}                  {rvof}               "
+5070 print"     {rvon}                  {rvof}               "
+5080 print"     {rvon}                  {rvof}  {c=-p}{c=-p}{c=-p}{c=-p}        "
+5090 print"     {rvon}                         {rvof}        "
+5100 print"     {rvon}              1000      {rvof})        "
+5200 print"     {rvon}                       {rvof})         "
+5210 print"     {rvon}                      {rvof})          "
+5220 print"     {rvon}                     {rvof})           "
 5230 print"     {c=-*}{shift-pound}{c=-*}{shift-pound}{c=-*}{shift-pound}{c=-*}{shift-pound}{rvon}  {rvof}{shift-pound}{c=-*}  {rvof}{shift-pound}{c=-*}{shift-pound}{c=-*}{rvon}  {rvof}{shift-pound}{c=-*}{shift-pound}      "
-5240 print"                 {c=-*}{shift-pound}                    {rvon}{shift-pound} {rvof}"
-5250 print"                                    {rvon}{shift-pound}  {rvof}"
-5260 print"                                   {rvon}{shift-pound}   {rvof}"
-5270 print"                                  {rvon}{shift-pound}    {rvof}"
-5280 print"                                {rvon}{shift-pound}      {rvof}"
-5285 print"                 {rvon}{shift-pound}{c=-*}{rvof}               {rvon}           {rvof}"
-5290 print"     {rvon}                                {rvof}"
-5295 print"     {rvon}                                {rvof}";
+5240 print"                 {c=-*}{shift-pound}                {rvon}{shift-pound} {rvof}"
+5250 print"                                   {rvon}{shift-pound}  {rvof}"
+5260 print"                                  {rvon}{shift-pound}   {rvof}"
+5270 print"                                 {rvon}{shift-pound}    {rvof}"
+5280 print"                               {rvon}{shift-pound}      {rvof}"
+5285 print"                 {rvon}{shift-pound}{c=-*}{rvof}               {rvon} {rvof}"
+5290 print"     {rvon}                                 {rvof}"
+5295 print"     {rvon}                                 {rvof}";
 5300 print"{home}{down}{down}{down}";tab(38);"{rvon} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {down}{left} {rvof}";
 6000 return

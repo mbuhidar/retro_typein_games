@@ -68,7 +68,7 @@
 730 IFA$="3"THENGR=4.25: RETURN
 740 GOTO710
 750 PRINT"{HM}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}SCORE";SC;
-760 PRINT"{HM}{CD}{CR}  {HM}";TAB(28);"FUEL     {CL}{CL}{CL}{CL}{CL})";FU;:RETURN
+760 PRINT"{HM}{CD}{CR}  {HM}";TAB(28);"FUEL     {CL}{CL}{CL}{CL}{CL}";FU;:RETURN
 800 POKEV+1,Y:IFX<256THENPOKEV,X:POKEV+16,0:RETURN
 810 POKEV,X-256:POKE53264,127:RETURN
 820 POKES+1,3:FORX=1TO4:POKES+24,V2:FORY=1TO15:NEXT:V2=V2+1
@@ -78,24 +78,24 @@
 910 IFA>.3THENPRINTTAB(RND(0)*39);"."
 920 IF A<=.3THENPRINT
 930 NEXT:PRINT:PRINT:PRINT
-1000 PRINT"                              {RV}{SHIFT-POUND}{C=-*}{RO}    "
+1000 PRINT"                              {RV}{SHIFT-POUND}{C=-*}{RO}      "
 1100 PRINT"                             {RV}{SHIFT-POUND}  {C=-*}{RO}     "
-1200 PRINT"                           {RV}{SHIFT-POUND}      {C=-*}{RO}   "
-1300 PRINT"                         {RV}{SHIFT-POUND}         {C=-*}{RO}  "
-1400 PRINT"                     {RV}{SHIFT-POUND}              {RO}  "
-1500 PRINT"                    {RV}{SHIFT-POUND} 500           {C=-*}{RO}"
-1600 PRINT"      {RV}{SHIFT-POUND} {C=-*}{RO}           {RV}{SHIFT-POUND}                  {RO} "
-1700 PRINT"     {RV}{SHIFT-POUND}   {RO}           {RV}{SHIFT-POUND}                   {C=-*}{RO} "
-1800 PRINT"   {RV}{SHIFT-POUND}      {C=-*}{RO}      {RV}{SHIFT-POUND}                   {RO}  "
-1900 PRINT"  {RV}{SHIFT-POUND}        {C=-*}{RO}    {RV}{SHIFT-POUND}                     {C=-*}{RO}  "
-1910 PRINT"{RV}           100                          {RO}";
+1200 PRINT"                            {RV}{SHIFT-POUND}    {C=-*}{RO}    "
+1300 PRINT"                           {RV}{SHIFT-POUND}      {C=-*}{RO}   "
+1400 PRINT"                          {RV}{SHIFT-POUND}           {RO}"
+1500 PRINT"                     {RV}{SHIFT-POUND} 500           {C=-*}{RO}"
+1600 PRINT"      {RV}{SHIFT-POUND} {C=-*}{RO}           {RV}{SHIFT-POUND}             {RO} "
+1700 PRINT"     {RV}{SHIFT-POUND}   {RO}           {RV}{SHIFT-POUND}            {C=-*}{RO} "
+1800 PRINT"   {RV}{SHIFT-POUND}       {C=-*}{RO}    {RV}{SHIFT-POUND}                   {RO} "
+1900 PRINT"  {RV}{SHIFT-POUND}        {C=-*}{RO}    {RV}{SHIFT-POUND}                  {C=-*}{RO} "
+1910 PRINT"{RV}             100                      {RO}";
 1920 IFL2=1ANDL1=1THENPRINT"{HM}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{RV}{C=-*}{RO}   {RV}{SHIFT-POUND}{RO}";
 1930 RETURN
 1999 REM LANDER SPRITES
 2000 DATA 0,255,0,0,255,0,7,255,224,7
 2010 DATA 255,224,7,255,224,0,255,0,0,255
 2020 DATA 0,15,255,240,15,255,240,15,255,240
-2030 DATA 3,255,192,3,60,192,6,12,6,96,12
+2030 DATA 3,255,192,3,60,192,6,126,96,12
 2040 REM NO FLAME
 2050 DATA 0,48,24,0,24,0,0,0,0,0
 2060 DATA 0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -140,24 +140,24 @@
 5020 PRINT"     {RV}                                  "
 5030 PRINT"     {RV}                                  "
 5040 PRINT"     {RV}                                  "
-5050 PRINT"     {RV}                    {RO}{SHIFT-POUND}  {C=-*}{RV}  {RO}{SHIFT-POUND}  {C=-*}{RV}  "
-5060 PRINT"     {RV}                    {RO}              "
-5065 PRINT"     {RV}                    {RO}              "
-5070 PRINT"     {RV}                    {RO}              "
-5080 PRINT"     {RV}                    {RO}  {C=-P}{C=-P}{C=-P}{C=-P}           "
-5090 PRINT"     {RV}                         {RO}         "
-5100 PRINT"     {RV}              1000      {RO})          "
-5200 PRINT"     {RV}                       {RO})           "
-5210 PRINT"     {RV}                      {RO})            "
-5220 PRINT"     {RV}                     {RO})             "
+5050 PRINT"     {RV}                  {RO}{SHIFT-POUND}  {C=-*}{RV}  {RO}{SHIFT-POUND}  {C=-*}{RV}  "
+5060 PRINT"     {RV}                  {RO}               "
+5065 PRINT"     {RV}                  {RO}               "
+5070 PRINT"     {RV}                  {RO}               "
+5080 PRINT"     {RV}                  {RO}  {C=-P}{C=-P}{C=-P}{C=-P}        "
+5090 PRINT"     {RV}                         {RO}        "
+5100 PRINT"     {RV}              1000      {RO})        "
+5200 PRINT"     {RV}                       {RO})         "
+5210 PRINT"     {RV}                      {RO})          "
+5220 PRINT"     {RV}                     {RO})           "
 5230 PRINT"     {C=-*}{SHIFT-POUND}{C=-*}{SHIFT-POUND}{C=-*}{SHIFT-POUND}{C=-*}{SHIFT-POUND}{RV}  {RO}{SHIFT-POUND}{C=-*}  {RO}{SHIFT-POUND}{C=-*}{SHIFT-POUND}{C=-*}{RV}  {RO}{SHIFT-POUND}{C=-*}{SHIFT-POUND}      "
-5240 PRINT"                 {C=-*}{SHIFT-POUND}                    {RV}{SHIFT-POUND} {RO}"
-5250 PRINT"                                    {RV}{SHIFT-POUND}  {RO}"
-5260 PRINT"                                   {RV}{SHIFT-POUND}   {RO}"
-5270 PRINT"                                  {RV}{SHIFT-POUND}    {RO}"
-5280 PRINT"                                {RV}{SHIFT-POUND}      {RO}"
-5285 PRINT"                 {RV}{SHIFT-POUND}{C=-*}{RO}               {RV}           {RO}"
-5290 PRINT"     {RV}                                {RO}"
-5295 PRINT"     {RV}                                {RO}";
+5240 PRINT"                 {C=-*}{SHIFT-POUND}                {RV}{SHIFT-POUND} {RO}"
+5250 PRINT"                                   {RV}{SHIFT-POUND}  {RO}"
+5260 PRINT"                                  {RV}{SHIFT-POUND}   {RO}"
+5270 PRINT"                                 {RV}{SHIFT-POUND}    {RO}"
+5280 PRINT"                               {RV}{SHIFT-POUND}      {RO}"
+5285 PRINT"                 {RV}{SHIFT-POUND}{C=-*}{RO}               {RV} {RO}"
+5290 PRINT"     {RV}                                 {RO}"
+5295 PRINT"     {RV}                                 {RO}";
 5300 PRINT"{HM}{CD}{CD}{CD}";TAB(38);"{RV} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {RO}";
 6000 RETURN

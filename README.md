@@ -43,9 +43,9 @@ use with an emulator or original hardware.
 After installation, use `debug_tokenize` directly from the command line - 
 consult the help for the latest usage: 
 
-*Note: Currently only options for C64 load address, Basic v2.0, and Ahoy
-debugger from April 1984 through April 1987 issues are available (defaults).
-More options to come in future releases.*
+**Note:** Currently the only implemented options are for C64 load address,
+Basic v2.0, and the first two of the three Ahoy debugger versions.
+More options to come in future releases.
 
 ```
 debug_tokenize [-l load_address] [-v basic_version] [-s source_format] input_file
@@ -55,11 +55,10 @@ debug_tokenize [-l load_address] [-v basic_version] [-s source_format] input_fil
 positional arguments:
   input_file            Specify the input file name including path
                         Note:  Output files will use input file basename
-                        with extensions '.pet' for petcat-ready file and
-                        '.prg' for Commodore executable file format.
+                        with extensions '.bas' for petcat-ready file and
+                        '.prg' for Commordore run file format.
 
 optional arguments:
-
   -h, --help            show this help message and exit
 
   -l load_address, --loadaddr load_address
@@ -80,11 +79,11 @@ optional arguments:
                         - 7 - Basic v7.0  C128
 
   -s source_format, --source source_format
-                        Specifies the source BASIC file format:
-                        pet - use standard pet control character mnemonics
-                        ahoy - use Ahoy! magazine control character mnemonics (default)
-```
+                        Specifies the magazine source for conversion and checksum:
+                        ahoy1 - Ahoy magazine (Apr-May 1984)
+                        ahoy2 - Ahoy magazine (Jun 1984-Apr 1987) (default)
 
+```
 
 As an example for an Ahoy! magazine file:
 
@@ -97,7 +96,35 @@ characters converted to VICE petcat special character codes)
 Output2:  basename.prg (tokenized file that can be run on a Commodore 
 computer or on an emulator like VICE)
 ```
----
+
+### Notes for entering programs from Ahoy magazine:
+
+In addition to the special character codes contained in braces 
+in the magazine, Ahoy also used a shorthand convention for 
+specifying a key entry preceeded by either the Shift key or the 
+Commodore key as follows:
+
+    Underlined characters - preceed entry with Shift key
+    Overlined characters - preceed entry with Commodore key
+
+Standard keyboard letters should be typed as follows for these two cases.
+
+    {SHIFT-A}, {SHIFT-B}, {SHIFT-*} etc.
+    {C=-A}, {C=-B}, {C=-*}, etc.
+
+There are a few instances where the old hardware has keys not
+available on a modern keyboard or are otherwise ambiguous.
+Those should be entered as follows:
+
+    {pound} - British Pound symbol
+    {up_arrow} - up arrow symbol
+    {left_arrow} - left arrow symbol
+    {pi} - Pi symbol
+    {shift-return} - shifted return
+    {shift-space} - shifted space
+    {c=-pound} - Commodore-Bristish Pound symbol
+    {shift-up_arrow} - shifted up arrow symbol
+
 ### Using the output files
 
 If installed, you can use the VICE petcat utility to tokenize the BASIC file

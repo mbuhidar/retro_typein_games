@@ -78,17 +78,17 @@
 910 ifa>.3thenprinttab(rnd(0)*39);"."
 920 if a<=.3thenprint
 930 next:print:print:print
-1000 print"                              {rvon}{shift-pound}{c=-*}{rvof}      "
-1100 print"                             {rvon}{shift-pound}  {c=-*}{rvof}     "
-1200 print"                            {rvon}{shift-pound}    {c=-*}{rvof}    "
-1300 print"                           {rvon}{shift-pound}      {c=-*}{rvof}   "
-1400 print"                          {rvon}{shift-pound}           {rvof}"
-1500 print"                     {rvon}{shift-pound} 500           {c=-*}{rvof}"
-1600 print"      {rvon}{shift-pound} {c=-*}{rvof}           {rvon}{shift-pound}             {rvof} "
-1700 print"     {rvon}{shift-pound}   {rvof}           {rvon}{shift-pound}            {c=-*}{rvof} "
-1800 print"   {rvon}{shift-pound}       {c=-*}{rvof}    {rvon}{shift-pound}                   {rvof} "
-1900 print"  {rvon}{shift-pound}        {c=-*}{rvof}    {rvon}{shift-pound}                  {c=-*}{rvof} "
-1910 print"{rvon}             100                      {rvof}";
+1000 print"                              {rvon}{shift-pound}{c=-*}{rvof}       "
+1100 print"                             {rvon}{shift-pound}  {c=-*}{rvof}      "
+1200 print"                           {rvon}{shift-pound}      {c=-*}{rvof}    "
+1300 print"                         {rvon}{shift-pound}          {c=-*}{rvof}  "
+1400 print"                       {rvon}{shift-pound}             {c=-*}{rvof} "
+1500 print"                   {rvon}{shift-pound}500               {c=-*}{rvof}"
+1600 print"    {rvon}{shift-pound}{c=-*}{rvof}              {rvon}{shift-pound}                  {rvof}"
+1700 print"   {rvon}{shift-pound}  {c=-*}{rvof}           {rvon}{shift-pound}                    {rvof}"
+1800 print"  {rvon}{shift-pound}     {c=-*}{rvof}       {rvon}{shift-pound}                      {rvof}"
+1900 print"{rvon}{shift-pound}         {c=-*}{rvof}   {rvon}{shift-pound}                        {rvof}"
+1910 print"{rvon}           100                         {rvof}";
 1920 ifl2=1andl1=1thenprint"{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rvon}{c=-*}{rvof}   {rvon}{shift-pound}{rvof}";
 1930 return
 1999 rem lander sprites

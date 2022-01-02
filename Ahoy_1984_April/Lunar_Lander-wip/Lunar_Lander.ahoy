@@ -78,17 +78,17 @@
 910 IFA>.3THENPRINTTAB(RND(0)*39);"."
 920 IF A<=.3THENPRINT
 930 NEXT:PRINT:PRINT:PRINT
-1000 PRINT"                              {RV}{SHIFT-POUND}{C=-*}{RO}      "
-1100 PRINT"                             {RV}{SHIFT-POUND}  {C=-*}{RO}     "
-1200 PRINT"                            {RV}{SHIFT-POUND}    {C=-*}{RO}    "
-1300 PRINT"                           {RV}{SHIFT-POUND}      {C=-*}{RO}   "
-1400 PRINT"                          {RV}{SHIFT-POUND}           {RO}"
-1500 PRINT"                     {RV}{SHIFT-POUND} 500           {C=-*}{RO}"
-1600 PRINT"      {RV}{SHIFT-POUND} {C=-*}{RO}           {RV}{SHIFT-POUND}             {RO} "
-1700 PRINT"     {RV}{SHIFT-POUND}   {RO}           {RV}{SHIFT-POUND}            {C=-*}{RO} "
-1800 PRINT"   {RV}{SHIFT-POUND}       {C=-*}{RO}    {RV}{SHIFT-POUND}                   {RO} "
-1900 PRINT"  {RV}{SHIFT-POUND}        {C=-*}{RO}    {RV}{SHIFT-POUND}                  {C=-*}{RO} "
-1910 PRINT"{RV}             100                      {RO}";
+1000 PRINT"                              {RV}{SHIFT-POUND}{C=-*}{RO}       "
+1100 PRINT"                             {RV}{SHIFT-POUND}  {C=-*}{RO}      "
+1200 PRINT"                           {RV}{SHIFT-POUND}      {C=-*}{RO}    "
+1300 PRINT"                         {RV}{SHIFT-POUND}          {C=-*}{RO}  "
+1400 PRINT"                       {RV}{SHIFT-POUND}             {C=-*}{RO} "
+1500 PRINT"                   {RV}{SHIFT-POUND}500               {C=-*}{RO}"
+1600 PRINT"    {RV}{SHIFT-POUND}{C=-*}{RO}              {RV}{SHIFT-POUND}                  {RO}"
+1700 PRINT"   {RV}{SHIFT-POUND}  {C=-*}{RO}           {RV}{SHIFT-POUND}                    {RO}"
+1800 PRINT"  {RV}{SHIFT-POUND}     {C=-*}{RO}       {RV}{SHIFT-POUND}                      {RO}"
+1900 PRINT"{RV}{SHIFT-POUND}         {C=-*}{RO}   {RV}{SHIFT-POUND}                        {RO}"
+1910 PRINT"{RV}           100                         {RO}";
 1920 IFL2=1ANDL1=1THENPRINT"{HM}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CD}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{CR}{RV}{C=-*}{RO}   {RV}{SHIFT-POUND}{RO}";
 1930 RETURN
 1999 REM LANDER SPRITES

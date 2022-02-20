@@ -24,7 +24,7 @@ the magazine for quick reference.
 # retro-typein-tools
 Tools for typing-in, debugging, and converting 1980s magazine type-in games and 
 programs for use with Commodore emulators and original hardware.  Feel free to
-report any issues with the tools in the [retro-typein-tool Github repository](https://github.com/mbuhidar/retro_typein_tools).
+report any issues with the tools in the [retro-typein-tools Github repository](https://github.com/mbuhidar/retro_typein_tools).
 
 ## Installation
 `pip install retro-typein-tools`

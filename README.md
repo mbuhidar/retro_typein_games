@@ -26,8 +26,8 @@ Tools for typing-in, debugging, and converting 1980s magazine type-in games and
 programs for use with Commodore emulators and original hardware.  Feel free to
 report any issues with the tools in the [retro-typein-tools Github repository](https://github.com/mbuhidar/retro_typein_tools).
 
-## Installation
-`pip install retro-typein-tools`
+## Installation (requires Python 3.6 or later):
+`pip3 install retro-typein-tools`
 
 ## Tool: debug_tokenize
 
@@ -43,9 +43,7 @@ executable .prg file for direct use with an emulator or original hardware.
 After installation, use `debug_tokenize` directly from the command line - 
 consult the help for the latest usage: 
 
-**Note:** Currently the only implemented options are for C64 load address,
-and the first three of the four Ahoy debugger versions.
-More options to come in future releases.
+**Note:** Currently the only implemented options are for Ahoy C64 programs. 
 
 ```
 debug_tokenize [-l load_address] [-s source_format] input_file

@@ -20,6 +20,8 @@ An example for C64 games from Ahoy magazine would be:
 Also included in each magazine directory is a README that contains a link to
 existing historical archived magazine scans and descriptions for each game from
 the magazine for quick reference.
+____
+____
 
 # retro-typein-tools
 Tools for typing-in, debugging, and converting 1980s magazine type-in games and 
@@ -71,8 +73,8 @@ optional arguments:
   -s source_format, --source source_format
                         Specifies the magazine source for conversion and checksum:
                         ahoy1 - Ahoy magazine (Apr-May 1984)
-                        ahoy2 - Ahoy magazine (Jun 1984-Oct 1984) (default)
-                        ahoy3 - Ahoy magazine (Nov 1984-)
+                        ahoy2 - Ahoy magazine (Jun 1984-Apr 1987) (default)
+                        ahoy3 - Ahoy magazine (May 1987-)
 ```
 
 As an example for an Ahoy! magazine file:

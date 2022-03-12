@@ -1,7 +1,9 @@
-# Magazine info: 
+## Magazine info: 
 One link to the magazine issue: [Ahoy_1984_October](https://archive.org/details/ahoy-magazine-10)
+____
 
-# C-64 Bug Repellent - description from the magazine
+
+## C-64 Bug Repellent (description from the magazine)
 
 By Michael Kleinert and David Barron
 
@@ -30,3 +32,5 @@ If you spot a difference, an error exists in the line.
 Jot down the numbers of lines where contradictions
 occur, LIST each line, spot the errors, and correct
 them.
+
+_____

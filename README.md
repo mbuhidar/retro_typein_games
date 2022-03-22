@@ -25,11 +25,10 @@ ____
 
 # retro-typein-tools
 Tools for typing-in, debugging, and converting 1980s magazine type-in games and 
-programs for use with Commodore emulators and original hardware.  Feel free to
-report any issues with the tools in the [retro-typein-tools Github repository](https://github.com/mbuhidar/retro_typein_tools).
+programs for use with Commodore emulators and original hardware. 
 
-## Installation (requires Python 3.6 or later):
-`pip3 install retro-typein-tools`
+## Installation (requires Python 3.6 or later)
+`pip3 install retro-typein-tools --upgrade`
 
 ## Tool: debug_tokenize
 
@@ -37,8 +36,12 @@ The `debug_tokenize` tool is a debugger and converter for Commodore BASIC
 programs focused on tokenizing magazine type-in programs popular in the 1980s. 
 Given an input text file containing BASIC source code in magazine type-in
 format, it checks the typed line entries against line checksums that were 
-printed in the magazines to insure program is bug-free.  It then outputs an
-executable .prg file for direct use with an emulator or original hardware.
+printed in the magazines to insure program is bug-free. It both outputs the
+checksums to the terminal and writes a file with the extension '.chk' for
+comparison with the checksums printed in the magazine or with a '.ref' file
+containing the line numbers and checksums from the magazine. Finally, it
+outputs an executable '.prg' file for direct use with an emulator or original
+hardware.
 
 ### Usage
 
@@ -80,10 +83,13 @@ optional arguments:
 As an example for an Ahoy! magazine file:
 
 ```
-Input:    basename.ahoy
+Input:   basename.ahoy
 
-Output:  basename.prg (tokenized file that can be run on a Commodore 
-computer or on an emulator like VICE)
+Outputs:  basename.prg (tokenized file that can be run on a Commodore computer
+                        or on an emulator like VICE)
+          basename.chk (list of line numbers and checksums, along with the
+                        number of lines, for comparision to checksums printed
+                        in the magazine)
 ```
 
 ### Notes for entering programs from Ahoy issues prior to November 1984:

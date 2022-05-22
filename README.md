@@ -7,7 +7,7 @@ you'd like to take on typing in one of the games for nostalgic purposes.
 Suggestions on how to improve the type-in tools library are also very welcome.
 
 ## File Structure
-Each magazine will have a directory with folders for each individual game.
+Each magazine issue will have a directory with folders for each individual game.
 
 Each game should have a directory containing two files:
 - File as-typed from the magazine (including special character codes)

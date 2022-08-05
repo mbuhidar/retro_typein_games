@@ -14,7 +14,7 @@ Each game should have a directory containing two files:
 - File converted directly to binary format for use with emulator or original hardware
 
 An example for C64 games from Ahoy magazine would be:
-- gamename.ahoy (as-typed from magazine)
+- gamename.bas (as-typed from magazine)
 - gamename.prg (ready for use with emulator or C64)
 
 Also included in each magazine directory is a README that contains a link to
@@ -83,7 +83,7 @@ optional arguments:
 As an example for an Ahoy! magazine file:
 
 ```
-Input:   basename.ahoy
+Input:   basename.bas
 
 Outputs:  basename.prg (tokenized file that can be run on a Commodore computer
                         or on an emulator like VICE)

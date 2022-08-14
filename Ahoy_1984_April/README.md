@@ -51,6 +51,7 @@ We hope our program makes computing a bit more enjoyable for you. Don't put up
 with disgusting bugs in your programs any longer!
 
 ____
+
 ## Lunar Lander by Anthony Wood
 
 See magazine for notes on game play.  

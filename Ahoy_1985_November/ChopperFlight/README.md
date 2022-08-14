@@ -1,17 +1,17 @@
-## Magazine info: 
-One link to the magazine issue: [Ahoy_1985_November](https://archive.org/details/ahoy-magazine-23)
-____
+Chopper Flight is a game I wrote in 1984/85 timeframe 
+with my friend Kevin Woram when we were in our teenage
+years.  It is written in C64 BASIC and was published
+in the November 1985 issue of "Ahoy!" magazine as a 
+type-in game.  
 
-## Starship
+See the text of the game play description directly 
+from the magazine below.  
 
-From the article "Interrupting Your Way to Fast Motion" by Orson Scott Card 
+The code is included as a .bas file.
 
-This game uses the principles described in the article for making a fast,
-arcade-quality game using Commodore BASIC.
 
-____
-
-## CHOPPER FLIGHT FOR THE C-64
+******************************************************
+CHOPPER FLIGHT FOR THE C-64
 BY MIKE BUHIDAR, JR.and KEVIN WORAM
 
 In Chopper Flight, you are a civilian helicopter pilot
@@ -68,5 +68,4 @@ of time, you will receive one hundred points for every
 man you have rescued. Also, extra points are awarded
 for the difficulty of your mission and for completing it
 in the least amount of time.
-
-____
+******************************************************

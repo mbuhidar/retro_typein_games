@@ -8,5 +8,7 @@
 16 PRINT"[CLEAR][WHITE]ENTER SKILL LEVEL (1-6)"
 18 RM=14:WS=11:GOSUB258
 20 GETSL$:IFVAL(SL$)<1ORVAL(SL$)>6THEN20
+22 GOSUB132
 24 POKEV+31,0:LS=192:Q=4:M=88:U=83
-26 BR$="[RIGHT][RIGHT][c 2][RVSON][c R][c E][c R][c E][c R][c E][c R][c E][c R][c E]":B2$~"[RIGHT][RIGHT][c 2][RVSON][c R][c E][c R][c E][c R][c E][c R][c E][c R][c E]":HD=4-SL/3:GH=HD-1:MD=INT(GH*30)
+26 BR$="[RIGHT][RIGHT][c 2][RVSON][c R][c E][c R][c E][c R][c E][c R][c E][c R][c E]":B2$="[RIGHT][RIGHT][c 2][RVSON][c R][c E][c R][c E][c R][c E][c R][c E][c R][c E]":HD=4-SL/3:GH=HD-1:MD=INT(GH*30)
+28 WN$="[RIGHT][RIGHT][c 2][RVSON][c E][c R][c E][RVSOFF] [RVSON][c R][c E][c R][RVSOFF] [RVSON][c E][c R][RVSOFF][c 5][s O][c Y][c V]":W2$="[c 5][c C][c Y][s P][c 2][RVSON][c E][c R][c E][RVSOFF] [RVSON][c R][c E][c R][RVSOFF] [RVSON][c E][c R][RVSOFF]":IFHD>3THENHD=3

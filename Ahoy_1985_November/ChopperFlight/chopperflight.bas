@@ -158,3 +158,16 @@
 316 T$(5)="[s B] [s J][s K][6"[s B]"][s J][s K][3"[s B]"]  [s B][s B]  [s B][s J][s C][s I][4"[s B]"]"
 318 T$(6)="[s J][3"[s C]"][s K][s J][s K][s J][s K][s J][s C][s C][s K][s J][s K]  [s J][s K]  [s J][s C][s C][s K][s J][s K][s J][s K]"
 320 T$(7)="":T$(8)="":J$(1)="[s U][3"[s C]"][s I][s U][s I]  [s U][s C][s C][s I][s U][s C][s C][s I][s U][s I][s U][s I][s U][4"[s C]"][s I]"
+322 J$(2)="[s B][SS][s U][s C][s K][s B][s B][SS][SS][s J][s I][s U][s K][s B][s U][s C][s K][4"[s B]"][s J][s C][s I][s U][s C][s K]" 
+324 J$(3)="[s B][SS][s J][s C][s I][s B][s B][3"[SS]"][s B][s B][SS][s B][s B][s U][s I][s B][s J][s K][s B][SS] [s B][s B][SS]" 
+326 J$(4)="[s B][SS][s U][s C][s K][s B][s B][3"[SS]"][s B][s B][SS][5"[s B]"][s U][s I][s B][SS] [s B][s B][SS]"
+328 J$(5)="[s B][SS][s B][SS][SS][s B][s J][s C][s I][s U][s K][s J][s I][s B][s J][s K][5"[s B]"][SS] [s B][s B][SS]" 
+330 J$(6)="[s J][s C][s K][SS][SS][s J][s C][s C][s K][s J][s C][s C][s K][s J][s C][s C][s K][s J][s K][s J][s K][SS] [s J][s K][SS]"
+332 BL$="[s B][19" "][s B]":N1$="[s B][WHITE]MICHAEL BUHIDAR JR.[PURPLE][s B]"
+334 TP$="[PURPLE][4" "][s U][11"[s C]"][s I]":DB$="[s U][3"[s C]"][s K][WHITE]DESIGNED BY[PURPLE][s J][3"[s C]"][s I]"
+336 AN$="[PURPLE][s B][8" "][WHITE]AND[PURPLE][8" "][s B]":N2$="[s B][WHITE][4" "]KEVIN WORAM[4" "][PURPLE][s B]"
+338 CR$="[PURPLE][s B][WHITE]FOR AHOY! MAGAZINE [PURPLE][s B]":ED$="[s J][19"[s C]"][s K]"
+339 SP$="[PURPLE][s B][19" "][PURPLE][s B]"
+340 CP=V+1:FORL=1TO7:GOSUB8:PRINTTAB(5)T$(L):NEXT
+342 FORL=1TO6:GOSUB8:PRINTTAB(7)J$(L):NEXT
+344 PRINT:GOSUB8

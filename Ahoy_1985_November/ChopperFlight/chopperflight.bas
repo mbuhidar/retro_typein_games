@@ -139,3 +139,22 @@
 278 GOTO70
 280 REM MISSILE MOVING ROUTINE
 282 POKEHF,20:X1=INT(RND(0)*68)+144
+284 FORY1=255TO0STEP-10:POKELF,(255-Y1)
+286 POKEV+2,X1:POKEV+3,Y1:IFPEEK(V+30)AND1=1THENIFPEEK(V+30)AND2=2THEN300 
+288 NEXT:POKEV+31,0:M1=0:RETURN
+290 REM MISSILE SELECT
+292 M1=M1+1:IFM1<MDTHENRETURN
+294 POKEHF,5:POKELF,5
+296 IFM1>MD+10THEN282
+298 RETURN
+300 POKEV+2,0:E$="DESTROYED BY ENEMY FIRE,":GOTO218
+302 REM TITLE SCREEN
+304 FORL=1TO22:PRINT:NEXT
+306 FORK=1TO3:PRINTTAB(19)"[c 5][s B]":NEXT
+308 T$(1)="[CYAN][s U][3"[s C]"][s I][s U][s I][s U][s I][s U][s C][s C][s I][s U][s C][s C][s I][s U][s C][s C][s I][s U][s C][s C][s I][s U][3"[s C]"][s I]"
+310 T$(2)="[s B] [s U][s I][6"[s B]"][s U][s I][s B][s B][s U][s I][s B][s B][s U][s I][s B][s B][s U][s C][s K][s B][s U][s I] [s B]"
+312 T$(3)="[s B] [s B][s J][s K][s B][s J][s K][6"[s B]"][s J][s K][s B][s B][s J][s K][s B][s B][s J][s C][s I][s B][s J][s K] [s B]"
+314 T$(4)="[s B] [s B][s U][s I][s B][s U][s I][6"[s B]"][s U][s C][s K][s B][s U][s C][s K][s B][s U][s C][s K][s B][s U][s I][s U][s K]"
+316 T$(5)="[s B] [s J][s K][6"[s B]"][s J][s K][3"[s B]"]  [s B][s B]  [s B][s J][s C][s I][4"[s B]"]"
+318 T$(6)="[s J][3"[s C]"][s K][s J][s K][s J][s K][s J][s C][s C][s K][s J][s K]  [s J][s K]  [s J][s C][s C][s K][s J][s K][s J][s K]"
+320 T$(7)="":T$(8)="":J$(1)="[s U][3"[s C]"][s I][s U][s I]  [s U][s C][s C][s I][s U][s C][s C][s I][s U][s I][s U][s I][s U][4"[s C]"][s I]"

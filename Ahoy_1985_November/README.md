@@ -30,44 +30,45 @@ Got fast reflexes? Then Slither is for you. The object is to collect prizes from
 When you run Slither, after a delay of about 20 seconds the title screen appears and you'll be prompted to enter the difficulty (one is best for beginners and is the most playable). This corresponds to the number of prizes you must collect on each screen, so screens on difficulty level two are worth more than those on level one, but are harder. You also get more points for completing all screens on the higher difficulty levels.
 The toughest screens are #24 - Deathtrap I, #27 - The Web, and #38 - Deathtrap II. My high score is 52,940, starting on difficulty level one.
 
-SCREEN                  PRIZE               COMMENTS
-1. The Courtyard        strawberry (10)     no walls
-2. The Gatehouse        plum (25)           one small room
-3. The Barracks         lemon (50)
-4. The Garden           pineapple (75)
-5. The Chapel           apple (100)         a bit more difficult
-6. The Pit I            banana (125)        one room inside another
-7. Gallery I            silver bell (150)   all vertical walls
-8. The Library          gold bell (175)     difficult when prize is in aisle
-9. The Snake            candy cane (200)    narrow halls, dead ends
-10. The Colonnade       silver ring (250)   all vertical wails, very narrow halls
-11. The Wine Cellar     gold ring (300)     all horizontal walls
-12. The Three Rooms     wreath (400)        three small rooms
-13. The Double-E Room   "                   narrow outer halls
-14. Gallery II          "                   very narrow halls, three areas
-15. The Oval Room       "                   one oval-shaped room
-16. The Greenhouse      "                   three long dead-end halls
-17. The Mesh Room       "                   all vertical, tricky maneuvering
-18. The Prison          "                   two rooms with narrow doors
-19. The I-J-K Room      "                   diagonal walls and one small door
-20. The Cubicles        "                   all short vertical walls
-21. Triple-T            "                   three areas
-22. The Vestibule       "                   very narrow doors, very tricky
-23. The Arena           "                   one semi-enclosed area
-24. Deathtrap I         "                   confusing layout, VERY difficult
-25. The S-Chamber       "                   s-shaped central wall
-26. The Spiral Hall     "                   two areas connected by a twisty hall, tricky maneuvering
-27. The Web             "                   very tight turns, the toughest
-28. The Maze            "                   two areas separated by one wall
-29. The Pit II          "                   two rooms inside another
-30. The Atrium          "                   three rooms, cross- shaped middle 
-31. The Cloakrooms      "                   four very small rooms and doors
-32. The Dungeon         "                   thick-walled, two main rooms
-33. The Shifting Hall   "                   six rooms linked by two halls with broken wall, VERY difficult
-34. The Suite           "                   four rooms
-35. The Pantry          "                   mostly vertical walls
-36. Gallery III         "                   two main areas, one thick wall
-37. The Windbreak       "                   staggered vertical walls 
-38. Deathtrap II        "                   four rooms, very narrow doors, connected by a chamber-tough 
-39. The Wall            "                   one long horizontal wall 
-40. Deathtrap III       "                   confusing layout, tight turns
+| SCREEN              | PRIZE             | COMMENTS
+|:--------------------|:------------------|:----------------------------------------------------------------|
+| 1. The Courtyard    | strawberry (10) | no walls|
+| 2. The Gatehouse    | plum (25)       |   one small room|
+| 3. The Barracks     | lemon (50)      |                 |
+| 4. The Garden       | pineapple (75)  |                 |
+| 5. The Chapel       | apple (100)     |   a bit more difficult|
+| 6. The Pit I        | banana (125)    |   one room inside another|
+| 7. Gallery I        | silver bell (150) | all vertical walls|
+| 8. The Library      | gold bell (175) |   difficult when prize is in aisle|
+| 9. The Snake        | candy cane (200)|   narrow halls, dead ends|
+| 10. The Colonnade   | silver ring (250)|  all vertical wails, very narrow halls|
+| 11. The Wine Cellar | gold ring (300) |   all horizontal walls|
+| 12. The Three Rooms | wreath (400) |      three small rooms|
+| 13. The Double-E Room | "          |      narrow outer halls|
+| 14. Gallery II        | "          |      very narrow halls, three areas|
+| 15. The Oval Room     | "          |      one oval-shaped room|
+| 16. The Greenhouse    | "          |      three long dead-end halls|
+| 17. The Mesh Room     | "          |      all vertical, tricky maneuvering|
+| 18. The Prison        | "          |      two rooms with narrow doors|
+| 19. The I-J-K Room    | "          |      diagonal walls and one small door|
+| 20. The Cubicles      | "          |      all short vertical walls|
+| 21. Triple-T          | "          |      three areas|
+| 22. The Vestibule     | "          |      very narrow doors, very tricky|
+| 23. The Arena         | "          |      one semi-enclosed area|
+| 24. Deathtrap I       | "          |      confusing layout, VERY difficult|
+| 25. The S-Chamber     | "          |      s-shaped central wall|
+| 26. The Spiral Hall   | "          |      two areas connected by a twisty hall, tricky maneuvering|
+| 27. The Web           | "          |      very tight turns, the toughest|
+| 28. The Maze          | "          |      two areas separated by one wall|
+| 29. The Pit II        | "          |      two rooms inside another|
+| 30. The Atrium        | "          |      three rooms, cross- shaped middle|
+| 31. The Cloakrooms    | "          |      four very small rooms and doors|
+| 32. The Dungeon       | "          |      thick-walled, two main rooms|
+| 33. The Shifting Hall | "          |      six rooms linked by two halls with broken wall, VERY difficult|
+| 34. The Suite         | "          |      four rooms|
+| 35. The Pantry        | "          |      mostly vertical walls|
+| 36. Gallery III       | "          |      two main areas, one thick wall|
+| 37. The Windbreak     | "          |      staggered vertical walls|
+| 38. Deathtrap II      | "          |      four rooms, very narrow doors, connected by a chamber-tough|
+| 39. The Wall          | "          |      one long horizontal wall|
+| 40. Deathtrap III     | "          |      confusing layout, tight turns|

@@ -38,7 +38,7 @@
 300 IFF2=1THEN440
 310 IFY<149THEN270
 320 IFY<227 ORX<099OR X>123 ORE>9ORABS(H)>10THEN330
-322 IF Ll=1ANDL2=1THEN330
+322 IF L1=1ANDL2=1THEN330
 325 Y=227:GOSUB800:SC=SC+100:L2=1
 327 GOTO400
 330 IFY<177 ORX<197 ORX>203 ORE>9 ORABS(H)>10THEN340
@@ -63,7 +63,7 @@
 701 POKES+5,129:POKES+6,216:POKES+24,15          .
 702 POKES,200:POKES+4,0:POKES+1,2
 710 GETA$:IFA$=""THEN710
-715 IFA$="1"THENGR=3:RETURN
+715 IFA$="1"THENGR=2.1:RETURN
 720 IFA$="2"THENGR=3.6:RETURN
 730 IFA$="3"THENGR=4.25: RETURN
 740 GOTO710
@@ -82,8 +82,8 @@
 1100 PRINT"                             {RV}{s EP}  {c *}{RO}      "
 1200 PRINT"                           {RV}{s EP}      {c *}{RO}    "
 1300 PRINT"                         {RV}{s EP}          {c *}{RO}  "
-1400 PRINT"                       {RV}{s EP}             {c *}{RO} "
-1500 PRINT"                   {RV}{s EP}500               {c *}{RO}"
+1400 PRINT"                     {RV}{s EP}               {c *}{RO} "
+1500 PRINT"                    {RV}{s EP}500              {c *}{RO}"
 1600 PRINT"    {RV}{s EP}{c *}{RO}              {RV}{s EP}                  {RO}"
 1700 PRINT"   {RV}{s EP}  {c *}{RO}           {RV}{s EP}                    {RO}"
 1800 PRINT"  {RV}{s EP}     {c *}{RO}       {RV}{s EP}                      {RO}"
@@ -146,18 +146,18 @@
 5070 PRINT"     {RV}                  {RO}               "
 5080 PRINT"     {RV}                  {RO}  {c P}{c P}{c P}{c P}        "
 5090 PRINT"     {RV}                         {RO}        "
-5100 PRINT"     {RV}              1000      {RO})        "
+5100 PRINT"     {RV}                    1000{RO})        "
 5200 PRINT"     {RV}                       {RO})         "
 5210 PRINT"     {RV}                      {RO})          "
 5220 PRINT"     {RV}                     {RO})           "
-5230 PRINT"     {c *}{s EP}{c *}{s EP}{c *}{s EP}{c *}{s EP}{RV}  {RO}{s EP}{c *}  {RO}{s EP}{c *}{s EP}{c *}{RV}  {RO}{s EP}{c *}{s EP}      "
-5240 PRINT"                 {c *}{s EP}                {RV}{s EP} {RO}"
+5230 PRINT"     {c *}{s EP}{c *}{s EP}{c *}{s EP}{c *}{s EP}{RV}{RO}{s EP}{c *}{RO}{s EP}{c *}  {s EP}{c *}{RV}  {RO}{s EP}{c *}{s EP}      "
+5240 PRINT"                 {c *}{s EP}                 {RV}{s EP} {RO}"
 5250 PRINT"                                   {RV}{s EP}  {RO}"
-5260 PRINT"                                  {RV}{s EP}   {RO}"
-5270 PRINT"                                 {RV}{s EP}    {RO}"
-5280 PRINT"                               {RV}{s EP}      {RO}"
-5285 PRINT"                 {RV}{s EP}{c *}{RO}               {RV} {RO}"
-5290 PRINT"     {RV}                                 {RO}"
-5295 PRINT"     {RV}                                 {RO}";
+5260 PRINT"                                  {RV}{s EP}    {RO}"
+5270 PRINT"                                 {RV}{s EP}     {RO}"
+5280 PRINT"                                {RV}{s EP}      {RO}"
+5285 PRINT"                 {RV}{s EP}{c *}{RO}             {RV}       {RO}"
+5290 PRINT"     {RV}                                  {RO}"
+5295 PRINT"     {RV}                                  {RO}";
 5300 PRINT"{HM}{CD}{CD}{CD}";TAB(38);"{RV} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {CD}{CL} {RO}";
 6000 RETURN

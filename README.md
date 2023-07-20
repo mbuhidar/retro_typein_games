@@ -44,7 +44,7 @@ consult the help for the latest usage:
 **Note:** Currently the only implemented options are for Ahoy C64 programs. 
 
 ```
-retrotype_cli [-l load_address] [-s source_format] input_file
+retrotype_cli [-l load_address] [-s source_format] [-w] input_file
 ```
 
 ```
@@ -69,6 +69,8 @@ optional arguments:
                         ahoy1 - Ahoy magazine (Apr-May 1984)
                         ahoy2 - Ahoy magazine (Jun 1984-Apr 1987) (default)
                         ahoy3 - Ahoy magazine (May 1987-)
+
+  -w, --wip             Work in progress, do not output executable binary file.
 ```
 
 As an example for an Ahoy! magazine file:

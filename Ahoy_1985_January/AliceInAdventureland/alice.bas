@@ -1,0 +1,4 @@
+5 REM ALICE
+10 POKE53280,0:POKE53281,0:PRINT"[CLEAR][c 1]":FORI=1TO7:PRINT:NEXT
+15 PRINTTAB(15)"[s U][s I][c A] [c R][s U][s I][c A][c S]":PRINTTAB(15)"[c Q][c W][s -] [s -][s -] [c Q]":PRINTTAB(15)"[c X][c Z][c Z][c X][c E][s J][s K][c Z][c X]"
+17 PRINT:PRINTTAB(15)"BY SPIRKO":SE=54272:POKESE+24,15

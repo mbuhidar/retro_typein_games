@@ -30,3 +30,5 @@
 89 SP=7
 90 FORH=1TO4:READL:FORI=LTOL+62:READJ:POKEI,J:NEXTI,H
 100 PRINT"[CLEAR][c 1][DOWN][DOWN][RIGHT][RIGHT][RVSON][c E][s +][s +][c R][c E][c W][RVSOFF][4" "][RVSON][c Q][c E][s +][c R][c E][s +]"
+101 PRINT"[RVSON][RIGHT][RIGHT][s +][DOWN][LEFT][c R][DOWN][LEFT][c Q][DOWN][LEFT][s +][DOWN][LEFT][c E][DOWN][LEFT][c W][DOWN][LEFT][s +][DOWN][LEFT][c Q][DOWN][LEFT][s -][DOWN][LEFT][c R][DOWN][LEFT][s +][DOWN][LEFT][c E][DOWN][LEFT][c Q][DOWN][LEFT][s +][DOWN][LEFT][c Z]";
+102 PRINT"[RVSON][LEFT][c W][s +][c E][s +][c W][c W][c E][s *][c E][c R][c Q][c R][c E][s +][c X]";
